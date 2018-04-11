@@ -390,7 +390,7 @@ public struct InlineRowHideOptions: OptionSet {
 }
 
 /// View controller that shows a form.
-open class FormViewController: UIViewController, FormViewControllerProtocol, FormDelegate {
+open class FormViewController: LGViewController, FormViewControllerProtocol, FormDelegate {
 
     @IBOutlet public var tableView: UITableView!
 
